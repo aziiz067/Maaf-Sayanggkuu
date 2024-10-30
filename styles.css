@@ -1,0 +1,42 @@
+body {
+    background-color: #ffeb3b; /* Latar belakang kuning cerah */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Font lucu */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Mengatur tinggi penuh */
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.funny-text {
+    font-size: 100px; /* Ukuran teks besar */
+    color: #d32f2f; /* Warna merah cerah */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Bayangan teks */
+    animation: shake 0.5s infinite; /* Animasi goyang */
+}
+
+.subtext {
+    font-size: 40px; /* Ukuran teks lebih kecil */
+    color: #1976d2; /* Warna biru */
+    margin-top: 20px;
+}
+
+/* Animasi goyang */
+@keyframes shake {
+    0%, 100% {
+        transform: translate(0);
+    }
+    25% {
+        transform: translate(-5px, 0);
+    }
+    50% {
+        transform: translate(5px, 0);
+    }
+    75% {
+        transform: translate(-5px, 0);
+    }
+}
